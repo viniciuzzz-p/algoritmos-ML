@@ -8,6 +8,7 @@ class LinearRegression():
         self.vies = None
         self.historico_custo = []
 
+
     def fit(self, X, y):
         n_samples, n_features = X.shape
         self.pesos = np.zeros(n_features)
