@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 # Importe a classe que VOCÊ criou (assumindo que o arquivo se chama logistic_regression.py)
-from Regressao_Logistica import Logistic_Regression 
+from algoritmos.Regressao_Logistica import Logistic_Regression 
 
 # 1. Carregar os dados reais
 breast_cancer = datasets.load_breast_cancer()

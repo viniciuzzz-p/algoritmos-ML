@@ -2,7 +2,7 @@ if __name__ == "__main__":
     import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
-from Regressao_Linear import LinearRegression # Certifique-se que o nome do arquivo é esse
+from algoritmos.Regressao_Linear import LinearRegression # Certifique-se que o nome do arquivo é esse
 
 # 1. Gerar dados
 X, y = datasets.make_regression(n_samples=100, n_features=1, noise=20, random_state=42)
