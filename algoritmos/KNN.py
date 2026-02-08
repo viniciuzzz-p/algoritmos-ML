@@ -34,5 +34,6 @@ class KNN ():
             voto_comum = Counter(k_vizinhos_label).most_common(1)
 
             previsoes.append(voto_comum[0][0])
+        
         return np.array(previsoes)
 
